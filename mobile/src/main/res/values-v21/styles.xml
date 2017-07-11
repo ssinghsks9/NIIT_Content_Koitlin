@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DetaileTheme" parent="Base.DeatilsTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="DetaileTheme.Detail" parent="DetaileTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
